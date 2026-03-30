@@ -3,58 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="Main.css">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="nav-bar">
         <div class="logo-container">
-<h1>
-    KR
-</h1>
+            <h1>KR</h1>
         </div>
         <div class="links-container">
-            <a href="index.html">HOME</a>
-            <a href="ABOUT.html">ABOUT</a>
-            <a href="PROJECTS.html">PROJECTS</a>
-            <a href="CONTACT.html">CONTACT</a>
-
-
-
-
+            <a href="index.html">Home</a>
+            <a href="ABOUT.html">About</a>
+            <a class="active-link" href="PROJECTS.html">Projects</a>
+            <a href="contact.html">Contact</a>
         </div>
-
-
-
     </nav>
 
+    <main class="page-shell">
+        <section class="page-intro">
+            <p class="section-label">Projects</p>
+            <h1>Some practice projects I have built.</h1>
+            <p>
+                These projects helped me practice layout, styling, and simple interface design.
+            </p>
+        </section>
 
+        <section class="projects">
+            <article class="projects-card">
+                <img src="calculator.png" alt="Calculator project preview">
+                <div class="project-body">
+                    <h2>Calculator</h2>
+                    <p>A simple calculator for basic mathematical operations.</p>
+                    <a href="#">Source code coming soon</a>
+                </div>
+            </article>
 
-    <section class="projects"style="margin-top: 150px">
+            <article class="projects-card">
+                <img src="calender.png" alt="Calendar project preview">
+                <div class="project-body">
+                    <h2>Calendar</h2>
+                    <p>A calendar layout created to help users keep track of important dates.</p>
+                    <a href="#">Source code coming soon</a>
+                </div>
+            </article>
 
-            <div class="projects-card">
-                <img src="calculator.png" alt="p1">
-                <h2>Calculator</h2>
-                <p>Used to do mathematical calculations<p>
-                <a href="https://github.com/user/Project 1">view on GitHub</a>
-             </div>
-
-
-            <div class="projects-card">
-                    <img src="calender.png" >     
-                        <h2>Calender</h2>
-                        <p>Used to track your dates</p>
-                        <a href="https://github.com/user/Project 2">view on GitHub</a>
-            </div>
-
-            <div class="projects-card">
-                          <img src="Project3.jpg" alt="Project 3">
-                         <h2>Project 3</h2>
-                        <p>Description of Project 3.</p>
-                         <a href="https://github,com/user/project 3">view on GitHub</a>
-            </div>
-    </section>
-
+            <article class="projects-card">
+                <img src="IMG_20230929.jpg" alt="Portfolio project preview">
+                <div class="project-body">
+                    <h2>Portfolio Website</h2>
+                    <p>A personal website used to introduce myself, share projects, and provide contact details.</p>
+                    <a href="#">This project</a>
+                </div>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
